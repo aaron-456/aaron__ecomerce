@@ -1,0 +1,170 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;400&display=swap');
+
+
+:root {
+    --colorred:#e94959;
+    --colorbase:#262626;
+    --colorparagraf:#797979;
+    --colorbutton:#ffffff;
+    --colorbutton2:#bfbfbf;
+
+}
+
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+
+.font_robo{
+    font-family:'Roboto', sans-serif;
+
+
+}
+
+img {
+    display: block;
+    width: 100%;
+}
+
+
+
+.container__homer {
+    display: grid;
+    gap: 1.6rem;
+
+}
+
+body {
+    max-width: 1070px;
+}
+
+
+
+.h_padre {
+    display: flex;
+    justify-content: end;
+    
+}
+
+
+
+.home__images {
+    background-color: var(--colorred);
+    height: 430px;
+    width: 258px;
+    display: flex;
+    align-items: flex-end;
+    padding-bottom: 2rem;
+    
+    
+
+}
+
+
+.title__h {
+    font-size: 35px;
+    padding: 1rem;
+    color: var(--colorbase);
+}
+
+.paragraph__h {
+    padding: 1rem;
+    color: var(--colorparagraf);
+    
+    
+    
+    
+}
+
+.price__h {
+    color: var(--colorred);
+    font-size: 1.2rem;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 1rem;
+    font-weight: 600;
+
+    
+}
+
+.button__1 {
+    height: 50px;
+    width: 106px;
+    color: var(--colorbase);
+    background-color: var(--colorbutton2);
+    border: none;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+
+
+    
+
+}
+
+.button__2 {
+    height: 58px;
+    width: 160px;
+    font-size: 14px;
+    font-weight: 600;
+    color: var(--colorbutton);
+    background-color: var(--colorbase);
+    border: none;
+    cursor: pointer;
+
+
+
+}
+
+.btn__m {
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+
+
+}
+
+@media (min-width: 575px) {
+    
+
+    .home__images {
+        background-color: var(--colorred);
+        height: 430px;
+        width: 340px;
+    
+        
+        
+    
+    }
+}
+
+@media (min-width: 767px) {
+
+    .container__homer {
+        display: flex;
+        flex-direction: row-reverse;
+    
+    }
+
+
+}
+/* 
+@media (min-width: 1070px) {
+
+    .h_padre {
+        display: flex;
+        justify-content: center;        
+    }
+    
+
+} */
+
+
+
+
